@@ -1,0 +1,454 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-11 03:30+0430\n"
+"PO-Revision-Date: 2022-06-11 03:45+0326\n"
+"Last-Translator: Anonymous User <alirezafeyze4@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
+#: A/settings.py:105
+msgid "English"
+msgstr "انگلیسی"
+
+#: A/settings.py:106
+msgid "Persian"
+msgstr "فارسی"
+
+#: accounts/apps.py:8
+msgid "Accounts Config"
+msgstr "تنظیمات حساب ها"
+
+#: accounts/forms.py:45 accounts/forms.py:69 accounts/models.py:8
+msgid "username"
+msgstr "نام کاربری"
+
+#: accounts/forms.py:46 accounts/forms.py:70
+msgid "password"
+msgstr "پسورد"
+
+#: accounts/forms.py:55 accounts/forms.py:75
+msgid "username must less than 32 chars."
+msgstr "نام کاربری باید کمتر از 32 کاراکتر باشد"
+
+#: accounts/forms.py:63 accounts/forms.py:187 accounts/forms.py:194
+msgid "not found any account with information"
+msgstr "هیچ حسابی با این مشخصات یافت نشد "
+
+#: accounts/forms.py:77
+msgid "this username already exist."
+msgstr "این نام کاربری در حال حاضر وجود دارد"
+
+#: accounts/forms.py:83
+msgid "password must have more than or equal 8 chars."
+msgstr "پسورد باید بزرگ تر و یا مساوی با 8 کارکتر باشد"
+
+#: accounts/forms.py:89 accounts/forms.py:102
+msgid "Phone number"
+msgstr "شماره موبایل"
+
+#: accounts/forms.py:96
+#| msgid "this username already exist."
+msgid "This phone number does not exist."
+msgstr "حسابی با این شماره موبایل وجود ندارد"
+
+#: accounts/forms.py:109 accounts/forms.py:217
+#| msgid "this username already exist."
+msgid "This phone number already exist."
+msgstr "حسابی با ایم شماره موبایل وجود دارد"
+
+#: accounts/forms.py:114 accounts/forms.py:125 accounts/models.py:9
+#: accounts/models.py:48
+msgid "email"
+msgstr "ایمیل"
+
+#: accounts/forms.py:120
+msgid "This email does not exist"
+msgstr "حسابی با این ایمیل وجود ندارد"
+
+#: accounts/forms.py:131 accounts/forms.py:210
+#| msgid "this username already exist."
+msgid "This email already exist."
+msgstr "حسابی با این ایمیل وجود دارد"
+
+#: accounts/forms.py:136 accounts/models.py:49
+msgid "code"
+msgstr "کد"
+
+#: accounts/forms.py:145 accounts/forms.py:148
+msgid "invalid code."
+msgstr "کد نامعتبر"
+
+#: accounts/forms.py:151
+msgid "Expiration time is over"
+msgstr "مدت زمان اعتبار به اتمام رسیده است"
+
+#: accounts/forms.py:157
+#| msgid ""
+#| "You have successfully registered with your username and password."
+msgid "You have successfully logged in via your mobile number."
+msgstr "شما با موفقیت از طریق بوزرنیم و پسورد ثبت نام کردید"
+
+#: accounts/forms.py:161
+#| msgid ""
+#| "You have successfully registered with your username and password."
+msgid "You have successfully registered via your mobile number."
+msgstr "شما با موفقیت از طریق بوزرنیم و پسورد ثبت نام کردید"
+
+#: accounts/forms.py:166
+#| msgid ""
+#| "You have successfully registered with your username and password."
+msgid "You have successfully logged in via your email."
+msgstr "شما با موفقیت از طریق ایمیل لاگین کردید"
+
+#: accounts/forms.py:170
+#| msgid ""
+#| "You have successfully registered with your username and password."
+msgid "You have successfully registered via your email"
+msgstr "شما با موفقیت از طریق ایمیل ثبت نام کردید"
+
+#: accounts/forms.py:176 accounts/forms.py:199
+#| msgid "registration with Phone number"
+msgid "Email or Phone number"
+msgstr "ایمیل یا شماره موبایل"
+
+#: accounts/models.py:10 accounts/models.py:47
+msgid "phone number"
+msgstr "شماره موبایل"
+
+#: accounts/models.py:11
+msgid "is admin"
+msgstr "ادمین است/نیست"
+
+#: accounts/models.py:12
+msgid "is active"
+msgstr "فعال است/نیست"
+
+#: accounts/models.py:22
+msgid "User"
+msgstr "کاربر"
+
+#: accounts/models.py:23
+msgid "Users"
+msgstr "کاربران"
+
+#: accounts/models.py:34
+msgid "user"
+msgstr "کاربر"
+
+#: accounts/models.py:35
+msgid "count"
+msgstr "تعداد"
+
+#: accounts/models.py:36
+msgid "lock time"
+msgstr "زمان قفل شده"
+
+#: accounts/models.py:39
+msgid "Effort Authenticate"
+msgstr "تلاس اعتبار سنجی"
+
+#: accounts/models.py:40
+msgid "Efforts authenticate"
+msgstr "تلاش های اعتبار سنجی"
+
+#: accounts/models.py:50
+msgid "expire time"
+msgstr "زمان اعتبار"
+
+#: accounts/models.py:53
+msgid "Otp code"
+msgstr "کد تایید اعتبار"
+
+#: accounts/models.py:54
+msgid "Otp codes"
+msgstr "کد های تایید اعتبار"
+
+#: accounts/templates/accounts/github.html:5
+msgid "Login And Register With Github"
+msgstr "ورود و ثبت نام با گیت هاب"
+
+#: accounts/templates/accounts/google.html:5
+#| msgid "registration with Google"
+msgid "Login And Register With Google"
+msgstr "ورد و ثبت نام با گوگل"
+
+#: accounts/templates/accounts/login_combine.html:5
+#| msgid "registration with Phone number"
+msgid "Login Combine"
+msgstr "ورود بصورت ترکیبی(ایمیل، شماره موبایل، گوگل و گیت هاب)"
+
+#: accounts/templates/accounts/login_email.html:5
+#| msgid "Login"
+msgid "Login Email"
+msgstr "ورود با ایمیل"
+
+#: accounts/templates/accounts/login_email.html:9
+#| msgid "registration with Email"
+msgid "Login With Email"
+msgstr "ورود با ایمیل(ارسال کد یکبار مصرف)"
+
+#: accounts/templates/accounts/login_email.html:13
+#: accounts/templates/accounts/login_phone_number.html:18
+#: accounts/templates/accounts/login_username.html:15
+#: accounts/templates/accounts/register_phone_number.html:16
+msgid "Login"
+msgstr "ورود"
+
+#: accounts/templates/accounts/login_phone_number.html:5
+#| msgid "registration with Phone number"
+msgid "Login Phone Number"
+msgstr "ثبت نام با استفاده از شماره موبایل(ارسال کد یکبار مصرف)"
+
+#: accounts/templates/accounts/login_phone_number.html:9
+#: accounts/templates/accounts/register_phone_number.html:9
+#| msgid ""
+#| "In this method, we authenticate users using a username and password."
+msgid "In this method, we authenticate users using a phone number."
+msgstr ""
+"در این روش ما با گرفتن شماره موبایل عملیات اعتبار سنجی را انجام میدهیم"
+
+#: accounts/templates/accounts/login_phone_number.html:10
+#: accounts/templates/accounts/register_phone_number.html:10
+#| msgid "Note: This method is not recommended."
+msgid "Note: This method is recommended."
+msgstr "این روش پیشنهادی من هستش."
+
+#: accounts/templates/accounts/login_phone_number.html:11
+#: accounts/templates/accounts/register_phone_number.html:11
+#| msgid "In this project have two language(english and persian)."
+msgid "me in this project use kave negar(is iranian service)"
+msgstr "در این پروژه من وب سرویس اس ام اس کاوه نگار استفاده کرده ام."
+
+#: accounts/templates/accounts/login_phone_number.html:12
+msgid "technologies:"
+msgstr "تکنولوژی ها"
+
+#: accounts/templates/accounts/login_phone_number.html:13
+msgid "sms web service, rabbitmq, celery, session"
+msgstr "وب سرویس اس ام اس، ربیت ام کیو، سلری و سشن"
+
+#: accounts/templates/accounts/login_username.html:5
+msgid "Login Username"
+msgstr "ورود با استفاده از یوزرنیم"
+
+#: accounts/templates/accounts/login_username.html:9
+msgid "In this method, we authenticate users using a username and password."
+msgstr ""
+"در این روش ما با گرفتن نام کاربری و پسورد عملیات اعتبار سنجی را انجام میدهیم"
+
+#: accounts/templates/accounts/login_username.html:10
+msgid "Note: This method is not recommended."
+msgstr "تذکر: این روش پیشنهاد نمیشود"
+
+#: accounts/templates/accounts/register_combine.html:5
+#| msgid "registration with Phone number"
+msgid "Register Combine"
+msgstr "ثبت نام به صورت ترکیبی(ایمیل، شماره موبایل، گوگل و گیت هاب)"
+
+#: accounts/templates/accounts/register_email.html:5
+#| msgid "Register"
+msgid "Register Email"
+msgstr "ثبت نام با ایمیل"
+
+#: accounts/templates/accounts/register_email.html:9
+#| msgid "registration with Email"
+msgid "Register With Email"
+msgstr "ثبت نام با استفاده از ایمیل(ارسال کد یکبار مصرف)"
+
+#: accounts/templates/accounts/register_email.html:13
+#: accounts/templates/accounts/register_username.html:14
+msgid "Register"
+msgstr "ثبت نام"
+
+#: accounts/templates/accounts/register_phone_number.html:5
+#| msgid "registration with Phone number"
+msgid "Register Phone Number"
+msgstr "ثبت نام با استفاده از شماره موبایل(ارسال کد یکبار مصرف)"
+
+#: accounts/templates/accounts/register_username.html:5
+msgid "Register Username"
+msgstr "ثبت نام با استفاده از یوزرنیم"
+
+#: accounts/templates/accounts/register_username.html:9
+msgid "In this method, we register users using a username and password."
+msgstr ""
+"در این روش ما با گرفتن نام کاربری و پسورد عملیات ثبت نام را انجام میدهیم"
+
+#: accounts/templates/accounts/register_username.html:10
+msgid "Note: This method is not recommended"
+msgstr ""
+"تذکر: این روش پیشنهاد نمیشود. زیرا در این روش از ثبت نام تنها چیزی که از "
+"کاربر میگیریم نام کاربری است. همانطور که میدانید هر کاربر یک مشتری به حساب "
+"می آید و اگر ما بخوایم محصول جدیدی را به مشتری های خودمان معرفی کنیم نام "
+"کاربری به چه درد ما میخورد ؟"
+
+#: accounts/templates/accounts/verify_otp_code.html:5
+msgid "Verify Otp Code"
+msgstr "تایید کردن کد اعتبار"
+
+#: accounts/utils.py:33
+msgid "Otp Code"
+msgstr "کد اعتبارسنجی"
+
+#: accounts/validators.py:9 accounts/validators.py:11
+msgid "This number is not a valid phone number."
+msgstr "شماره موبایل وارد شده معتبر نمیباشد"
+
+#: accounts/views.py:47
+msgid "you are logged in with username and password successfully."
+msgstr "شما با موفقیت از طریق بوزرنیم و پسورد لاگین شدید"
+
+#: accounts/views.py:58
+msgid "You have successfully registered with your username and password."
+msgstr "شما با موفقیت از طریق بوزرنیم و پسورد ثبت نام کردید"
+
+#: accounts/views.py:71 accounts/views.py:84 accounts/views.py:138
+#: accounts/views.py:157
+msgid "We have sent a code to your phone number."
+msgstr "ما یک کد به شماره موبایل شما ارسال کردیم"
+
+#: accounts/views.py:106 accounts/views.py:119 accounts/views.py:134
+#: accounts/views.py:153
+msgid "We have sent a code to your email."
+msgstr "ما یک کد به ایمیل شما ارسال کردیم"
+
+#: core/apps.py:8
+msgid "Core Config"
+msgstr "تنظیمات هسته"
+
+#: core/templates/core/home.html:5 templates/inc/navbar.html:6
+msgid "Home"
+msgstr "خانه"
+
+#: core/templates/core/home.html:9
+msgid "Choose one of the authentication ways below:"
+msgstr "نحوه اعتبار سنجی را از روش های زیر انتخاب کنید"
+
+#: core/templates/core/home.html:11
+msgid "Authentication with Username"
+msgstr "اعتبار سنجی با استفاده از یوزرنیم و پسورد(ساده ترین روش)"
+
+#: core/templates/core/home.html:12
+msgid "Authentication with Phone number"
+msgstr "اعتبار سنجی با استفاده از شماره موبایل(ارسال کد یکبار مصرف)"
+
+#: core/templates/core/home.html:13
+msgid "Authentication with Email"
+msgstr "اعتبار سنجی با استفاده از ایمیل(ارسال کد یکبار مصرف)"
+
+#: core/templates/core/home.html:14
+msgid "Authentication with Google"
+msgstr "اعتبار سنجی از طریق حساب گوگل"
+
+#: core/templates/core/home.html:15
+msgid "Authentication with GitHub"
+msgstr "اعتبار سنجی با استفاده از گیت هاب"
+
+#: core/templates/core/home.html:16
+msgid "Authentication with Phone number or Email + Google + Github"
+msgstr "اعتبار سنجی ترکیبی(شماره موبایل یا ایمیل یا گوگل و یا گیت هاب)"
+
+#: core/templates/core/home.html:18
+msgid "API"
+msgstr "ای پی آی "
+
+#: core/templates/core/home.html:19
+msgid "Authentication with api Token"
+msgstr "اعتبار سنجی با استفاده از توکن(api)"
+
+#: core/templates/core/home.html:20
+msgid "jwt token"
+msgstr ""
+
+#: core/templates/core/home.html:21
+msgid "jwt refresh"
+msgstr ""
+
+#: core/templates/core/home.html:23
+msgid "Choose one of the registration ways below:"
+msgstr "نحوه ثبت نام را از روش های زیر انتخاب کنید."
+
+#: core/templates/core/home.html:25
+msgid "registration with Username"
+msgstr "ثبت نام با استفاده از یوزرنیم(ساده ترین روش)"
+
+#: core/templates/core/home.html:26
+msgid "registration with Phone number"
+msgstr "ثبت نام با استفاده از شماره موبایل(ارسال کد یکبار مصرف)"
+
+#: core/templates/core/home.html:27
+msgid "registration with Email"
+msgstr "ثبت نام با استفاده از ایمیل(ارسال کد یکبار مصرف)"
+
+#: core/templates/core/home.html:28
+msgid "registration with Google"
+msgstr "ثبت نام از طریق حساب گوگل"
+
+#: core/templates/core/home.html:29
+msgid "registration with GitHub"
+msgstr "ثبت نام با گیت هاب"
+
+#: core/templates/core/home.html:30
+msgid "registration with Phone number or Email + Google + Github"
+msgstr "ثبت نام ترکیبی(شماره موبایل یا ایمیل یا گوگل و یا گیت هاب)"
+
+#: core/templates/core/home.html:32
+msgid "About this project:"
+msgstr "درباره پروژه"
+
+#: core/templates/core/home.html:33
+msgid ""
+"In this project, I try to use many methods for authentication and "
+"registration. I hope this project is useful for you."
+msgstr ""
+"در این پروژه، روش های مختلفی برای اعتبار سنجی و ثبت نام استفاده کرده ام.\n"
+"مدل یوزر رو کاستومایز کردم، همچنین برای اینکه بتونم از متد اعتبارسنحی برای ایمیل و یوزرنیم و شماره موبایل استفاده کنم، آث بک اند های خودم رو اضافه کردم.\n"
+"توضیحات بیشتر در صفحات هر کدام از روش های اعتبار سنجی و ثبت نام داده شده است.\n"
+"همچنین یک مدل برای شمارش دفعات پشت سر هم ورود ناموفق یک حساب کاربری نوشتم که این را به ساده ترین شکل ممکن نوشتم فقط برای این منظور تا به شما یاد‌آوری کنم در پروژه های واقعی به این موضوع توجه کنید.\n"
+"امیدوارم این پروژه برای شما دوستان عزیز مفید باشه."
+
+#: core/templates/core/home.html:34
+msgid "In this project have two language(english and persian)."
+msgstr ""
+"این پروژه به دوزبان فارسی و انگلیسی نوشته شده است اما در زبان فارسی توضیحات "
+"کامل تری داده ام"
+
+#: core/templates/core/home.html:35
+msgid "Please look at the source code for a better understanding."
+msgstr ""
+"لطفا برای اینکه درک بهتری داشته باشید به سورس کد پروژه با دقت نگاه کنید."
+
+#: templates/inc/navbar.html:10
+msgid "Logout"
+msgstr "خروج"
+
+#~ msgid "Authentication with api jwt"
+#~ msgstr "اعتبار سنجی با استفاده از jwt"
+
+#~ msgid "Authentication with api Session"
+#~ msgstr "اعتبار سنجی با استفاده از سشن(api)"
+
+#~ msgid "registration with api Token"
+#~ msgstr "ثبت نام با استفاده از توکن(api)"
+
+#~ msgid "registration with api jwt"
+#~ msgstr "ثبت نام با استفاده از jwt"
+
+#~ msgid "registration with api Session"
+#~ msgstr "ثبت نام با استفاده از سشن(api)"
+
+#~ msgid "from authenticate ways below, choice one:"
+#~ msgstr "از روش های اعتبار سنجی زیر، یکی را انتخاب کنید."

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+{% block title %}{% translate "Login And Register With Google" %}{% endblock %}
+
+{% block content %}
+
+<a href="{% url 'social:begin' 'google-oauth2' %}">Login With Google</a>
+
+{% endblock %}

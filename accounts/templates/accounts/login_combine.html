@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+{% block title %}{% translate "Login Combine" %}{% endblock %}
+
+{% block content %}
+
+<form action="" method="post" novalidate>{% csrf_token %}
+  {{ form.as_p }}
+  <a class="btn btn-danger" href="{% url 'social:begin' 'google-oauth2' %}">Google+</a>
+  <a class="btn btn-dark" href="{% url 'social:begin' 'github' %}">Github</a>
+    <br><br>
+  <button class="btn btn-primary" type="submit">Login</button>
+</form>
+
+{% endblock %}

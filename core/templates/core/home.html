@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+{% block title %}{% translate "Home" %}{% endblock %}
+
+{% block content %}
+
+    <h3>{% translate "Choose one of the authentication ways below:" %}</h3>
+<hr>
+<a href="{% url 'accounts:login_username' %}">{% translate "Authentication with Username" %}</a><br><br>
+<a href="{% url 'accounts:login_phone_number' %}">{% translate "Authentication with Phone number" %}</a><br><br>
+<a href="{% url 'accounts:login_email' %}">{% translate "Authentication with Email" %}</a><br><br>
+<a href="{% url 'accounts:login_register_google' %}">{% translate "Authentication with Google" %}</a><br><br>
+<a href="{% url 'accounts:login_register_github' %}">{% translate "Authentication with GitHub" %}</a><br><br>
+<a href="{% url 'accounts:login_combine' %}">{% translate "Authentication with Phone number or Email + Google + Github" %}</a><br><br>
+
+    <h3>{% translate "API" %}</h3>
+<a href="/accounts/api/authenticate/token/">{% translate "Authentication with api Token" %}</a><br><br>
+<a href="/accounts/api/jwt/token/">{% translate "jwt token" %}</a><br><br>
+<a href="/accounts/api/jwt/token/refresh/">{% translate "jwt refresh" %}</a><br><br>
+
+    <h3>{% translate "Choose one of the registration ways below:" %}</h3>
+<hr>
+<a href="{% url 'accounts:register_username' %}">{% translate "registration with Username" %}</a><br><br>
+<a href="{% url 'accounts:register_phone_number' %}">{% translate "registration with Phone number" %}</a><br><br>
+<a href="{% url 'accounts:register_email' %}">{% translate "registration with Email" %}</a><br><br>
+<a href="{% url 'accounts:login_register_google' %}">{% translate "registration with Google" %}</a><br><br>
+<a href="{% url 'accounts:login_register_github' %}">{% translate "registration with GitHub" %}</a><br><br>
+<a href="{% url 'accounts:register_combine' %}">{% translate "registration with Phone number or Email + Google + Github" %}</a><br><br>
+
+<h3>{% translate "About this project:" %}</h3>
+<p>{% translate "In this project, I try to use many methods for authentication and registration. I hope this project is useful for you." %}</p>
+<p>{% translate "In this project have two language(english and persian)." %}</p>
+<p>{% translate "Please look at the source code for a better understanding." %}</p>
+
+<p>Contact with me:</p>
+<p>telegram: alireza_fai</p>
+
+{% endblock %}

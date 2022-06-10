@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+{% block title %}{% translate "Register Username" %}{% endblock %}
+
+{% block content %}
+
+<p>{% translate "In this method, we register users using a username and password." %}</p>
+<p>{% translate "Note: This method is not recommended" %}</p>
+
+<form action="" method="post" novalidate>{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">{% translate "Register" %}</button>
+</form>
+
+{% endblock %}
